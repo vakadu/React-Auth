@@ -2,6 +2,7 @@
   <dictionary name="vakadu">
     <words>
       <w>signin</w>
+      <w>unauth</w>
     </words>
   </dictionary>
 </component>

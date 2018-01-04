@@ -47,5 +47,5 @@ function mapStateToProps(state) {
 }
 
 Signin = reduxForm({ form: 'signin', fields: [ 'email', 'password' ] })(Signin);
-export default connect(null, actions)(Signin);
+export default connect(mapStateToProps, actions)(Signin);
 
